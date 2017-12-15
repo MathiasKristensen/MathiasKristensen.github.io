@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>M.T.K </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="discription" content="F.Y.J - We may have job you find interesting as a educatet Multimedia Designer. We also have an article about preperation to a job interview. ">
+    <meta name="keywords" content="F.Y.J, Find Your Job, HTML, CSS, JavaScript, Multimedia Designer, Prepare for the job interview">
+</head>
+
+<body>
+    <header>
+        <h1>M.T.K</h1>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+
+                <!--
+    jeg bruger span som hamburgerlinjerne
+    -->
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="produkt.html">
+                        <li>Portfolio</li>
+                    </a>
+                    <a class="button" href="#popup1">
+                        <li>About</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- karrusel -->
+    <div class="tekst">
+        <div class="wrapper">
+            <input checked type=radio name="slider" id="slide1" />
+            <input type=radio name="slider" id="slide2" />
+            <input type=radio name="slider" id="slide3" />
+            <!-- karrusel indhold -->
+            <div class="slider-wrapper">
+                <div class=inner>
+                    <article>
+                        <div class="info top-left">
+                            <h3>Case1</h3>
+                        </div>
+                        <a href="case1.html">
+                        <img src="image/case12.png" />
+          </a>
+                    </article>
+
+                    <article>
+                        <div class="info top-left">
+                            <h3>Case 2</h3>
+                        </div> <a href="case2.html">
+                        <img src="image/case22.png" />
+          </a></article>
+
+                    <article>
+                        <div class="info top-left">
+                            <h3>Case 3</h3>
+                        </div> <a href="case3.html">
+                        <img src="image/case32.png" />
+          </a>                    </article>
+
+
+                </div>
+            </div>
+
+            <div class="slider-prev-next-control">
+                <label for=slide1></label>
+                <label for=slide2></label>
+                <label for=slide3></label>
+            </div>
+            <!-- tidligere og næste prik -->
+
+            <div class="slider-dot-control">
+                <label for=slide1></label>
+                <label for=slide2></label>
+                <label for=slide3></label>
+            </div>
+            <!-- .prikker i bunden -->
+        </div>
+            <!-- popup -->
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>Mit navn er <br> Mathias Thrane Kristensen</h2>
+                    <a class="close" href="#">&times;</a>
+                    <p class="content">
+                        Jeg har gået på multimedie design i et semester nu.<br> Jeg ønsker at blive en animations designer. altså lave hjemmeside designs som indeholder animationer, samt nye måde at fremvise elementer på en hjemmeside.<br><br> Mine fertigheder på nuværende tidspunkt ligger hovedsageligt i HTML og CSS.<br> Jeg ser frem til at starte på JavaScript til næste semester, så jeg kan lave nogle mere avanceret animationer.
+                    </p>
+                    <ul>
+                        <li>Telefon: 30 11 76 78</li>
+                        <li>Adresse: Otte Ruds Gade 84 4tv</li>
+                        <li>E-mail: mathiasthrane@hotmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
